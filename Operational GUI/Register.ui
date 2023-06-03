@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>651</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Add Details</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>321</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>You are not an Existing user, so you need to Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>60</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add Your Details</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditFirstName">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>130</y>
+      <width>411</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+        QLineEdit:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+    <property name="placeholderText">
+     <string>First name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditLastName">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>180</y>
+      <width>411</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+        QLineEdit:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+    <property name="placeholderText">
+     <string>Last name</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxCountry">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>450</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+QComboBox:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCountry">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>425</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Country</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCountry_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>425</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select State</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxState">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>450</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+QComboBox:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCountry_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>495</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select City</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxCity">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>520</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+QComboBox:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCountry_4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>495</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Segment</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxSegment">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>520</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+QComboBox:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEditStreetAddress">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>230</y>
+      <width>411</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+        QTextEdit:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+    <property name="placeholderText">
+     <string>Street Address</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditpostalCode">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>340</y>
+      <width>411</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+            border-radius: 5px;
+            padding: 5px;
+            border: 2px solid #ccc;
+        }
+
+        QLineEdit:focus {
+            border: 2px solid #008080;
+        }</string>
+    </property>
+    <property name="placeholderText">
+     <string>Postal Code</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushBtnAddDetails">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>570</y>
+      <width>75</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+            border-radius: 10px;
+            padding: 5px;
+            background-color: #009688;
+            color: white;
+        }
+
+QPushButton:hover {
+            background-color: #008080;
+        }
+
+QPushButton:pressed {
+            background-color: #006666;
+        }</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="postalCodeErrorLabel">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>401</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: red
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>678</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

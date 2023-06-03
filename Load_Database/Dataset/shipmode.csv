@@ -1,0 +1,5 @@
+﻿ship_mode,shipping_fee,no_of_days_for_ship
+Standard Class,5,3
+Second Class,7,2
+First Class,9,1
+Same Day,11,0
